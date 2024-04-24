@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CISP 430 Final", "CISP 430 Final\CISP 430 Final.vcxproj", "{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Debug|x64.ActiveCfg = Debug|x64
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Debug|x64.Build.0 = Debug|x64
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Debug|x86.Build.0 = Debug|Win32
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Release|x64.ActiveCfg = Release|x64
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Release|x64.Build.0 = Release|x64
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Release|x86.ActiveCfg = Release|Win32
+		{C7FCD73F-057C-4B43-BF85-07A1657D3D6A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B208042-A646-47CF-A66D-D9A1FB5DC9DA}
+	EndGlobalSection
+EndGlobal
