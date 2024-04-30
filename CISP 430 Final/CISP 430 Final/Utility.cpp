@@ -77,7 +77,7 @@ int gatherInput() {
 //Effects: handles input by calling function selected by the user
 //Modifies: Nothing
 void handleInput(const int choice, std::map<std::string, std::string>& phoneBook) {
-	//simple switch/case block to handle integer input
+	//simple switch/case block to handle integer input, phonebook is passed by ref in all functions
 	switch (choice) {
 	case 1 : {
 		displayContacts(phoneBook);
