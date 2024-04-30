@@ -41,28 +41,30 @@ int displayMenu() {
 //Effects: prompts user to enter a character to make menu selection, checks for validity
 //Modifies: nothing
 int gatherInput() {
-	char userInput;
+	std::string userInput;
 	cout << " Enter choice: ";
 	
 	while (true) {	//if an invalid input is entered, loop will try again
 		std::cin >> userInput;
-		userInput = tolower(userInput);
-		if (userInput == 'd') {
+		for (char& c : userInput) {
+			c = tolower(c);
+		}
+		if (userInput == "d") {
 			return 1;
 		}
-		else if (userInput == 'a') {
+		else if (userInput == "a") {
 			return 2;
 		}
-		else if (userInput == 'r') {
+		else if (userInput == "r") {
 			return 3;
 		}
-		else if (userInput == 'c') {
+		else if (userInput == "c") {
 			return 4;
 		}
-		else if (userInput == 'u') {
+		else if (userInput == "u") {
 			return 5;
 		}
-		else if (userInput == 'q') {
+		else if (userInput == "q") {
 			exit(0);
 		}
 		else {
